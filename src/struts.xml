@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+
+	<package name="default" namespace="/" extends="struts-default">
+		<!-- 该action用于相应表单提交注册信息。如果设置type="redirect"那么就不能从request中取得属性了。 -->
+		<action name="SearchAction" class="com.inspur.document.actions.SearchAction">
+			<result>/index.jsp</result>
+		</action>
+	</package>
+
+</struts>

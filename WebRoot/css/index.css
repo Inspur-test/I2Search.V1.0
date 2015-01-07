@@ -1,0 +1,146 @@
+/*整体*/
+body{
+	font-family: 微软雅黑;	
+	text-align:center;  
+}
+#container{
+	text-align:left;
+	margin:0 auto;
+	width:80%;
+	margin-top:10px;   
+}
+/*logo*/  
+#logo{
+	width:30%;  
+	float:left;  
+}
+#logo img{
+	width:260px;
+	float:left;    
+	margin:3px;  
+}
+/*登录区*/
+#login{  
+	margin:5px;  
+	float:right;
+	font-size: 0.9em;
+	color:gray;  
+}
+#login a{
+	text-decoration: none;
+	color:gray;
+}
+#login a:hover{
+	color:black;
+}
+/*头部*/
+#head{
+	height:75px;        
+}
+/*中部*/
+#center{  
+	margin-top:20px;  
+}
+#centerLeft{
+	float:left;
+	border:1px solid #ededed;
+	border-top:none;
+	width:75%;
+}        
+#centerRight{  
+	border:1px solid #ededed;  
+	width:24.5%;
+	float:right;         
+}
+/*排序区*/
+#sortOption{    
+	background-color: #f8f8f8;
+	border:1px solid #ededed;
+	border-left:none;
+	border-right:none;
+	
+}
+#sortOption ul{
+	margin:5px;
+	margin-left:50px;  
+	padding:0;
+}
+#sortOption li{  
+	list-style-type:none;
+	display:inline;  
+	margin-right:60px;    
+	border-top:3px solid #f8f8f8;
+	padding:2px 10px;    
+}      
+#sortOption li a{
+	text-decoration: none;
+	color:#787878;
+}
+#sortOption li a:hover{
+	color:#25b686;
+}
+/*结果区*/
+.doc{
+	padding:8px 6px;
+}
+.doc .ext{
+	position: relative;
+	top:3px;  
+}
+.doc .title{
+	font-weight: bold;
+}
+.doc .summary{
+	font-size: 0.9em;
+}
+.doc .keywords{
+	font-size: 0.9em;
+}
+.doc .infos{
+	font-size: 0.9em;
+	color:#787878;
+}
+.doc .info {
+	margin-right: 20px;
+}
+/*上传*/
+#upload{
+	margin-left: 20px;
+	margin-top: 30px;
+	cursor: pointer;
+}
+/*搜索框*/
+#searchDiv{
+	float:left;
+	margin-left:10px;
+	margin-top:3px;
+}
+#content{
+	line-height:30px;
+	font-size:1.2em;
+	width:380px;
+	height:30px;  
+}
+#search{  
+	padding:0px 20px;    
+	cursor: pointer;
+	height:30px;
+	vertical-align: top;
+}
+.extension{  
+	margin-top:5px;
+	margin-left:5px;
+}
+#searchDiv label{
+	font-size: 0.9em;
+	margin-right: 10px;
+}
+/*分页按钮区*/
+#pagesDiv{
+	text-align: center;
+}
+#pages{
+	text-align:left;
+	margin:0 auto;
+	margin-bottom:10px;
+}
